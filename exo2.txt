@@ -1,0 +1,7 @@
+ 1  ls -a    ##Liste les dossies et sous dossiers et fichiers cachees
+ 2  ls       ##liste liste uniquement les dossiers et fichiers apparents
+ 3  ls -R
+ 4  cd unix 
+ 5  wc exo1.txt  ##pour compter le nombre de ligne , le nombre de mot et le nombre dans caracteres    exo1.txt
+ 6  wc -l exo1.txt      ##compte uniquement le nombre de ligne
+ 7  history >> exo2.txt

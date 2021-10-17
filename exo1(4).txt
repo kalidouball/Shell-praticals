@@ -1,0 +1,36 @@
+
+ ###EXO1
+
+   ls
+  a-  mkdir unix
+    cd unix
+  b- touch foo.txt
+     ls
+  c- cp foo.txt foo-copy.txt
+    ls
+  d-  mv foo-copy.txt foo2.txt
+    ls
+  e - mkdir data
+   cd data
+   ls
+   cd ..
+  f- mv foo2.txt data
+    cd data
+    ls
+    cd ..
+  g- mkdir new
+    ls
+  h- mv data/foo2.txt new
+    cd new
+    ls
+    cd .. 
+   i- mv new/foo2.txt foo-old.txt
+    ls
+    cd new
+    ls
+    cd ..
+   j - rm foo-old.txt
+    ls
+   h- rmdir new
+    ls
+ 
